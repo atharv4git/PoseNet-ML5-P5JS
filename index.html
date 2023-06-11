@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PoseNet</title>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+  <style>
+    body{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,6,10,1) 35%, rgb(13, 58, 182) 100%);
+        text-decoration: none;
+        color: beige;
+    }
+    h1{
+        color: beige;
+        font-size: 60px;
+        text-decoration-color: beige;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    img {
+        position: relative;
+        z-index: 100;
+        width: 200px;
+        margin-left: 500px;
+    }
+    .description-div {
+        position: relative;
+        z-index: 100;
+        margin-left: 600px;
+        width: 400px;
+        height: 200px;
+        overflow: auto;
+        }
+
+
+  </style>
+  <script src="sketch.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>PoseNet</h1>
+    <a href="https://en.wikipedia.org/wiki/Pose_(computer_vision)">what is Pose?</a>
+    <p>Arxiv research paper can be found <a href="https://arxiv.org/abs/1505.07427">here</a></p>
+    <img src="https://avatars.githubusercontent.com/u/36965392?s=280&v=4">
+    <div class="description-div">
+        <p>
+            PoseNet is a computer vision model and technology that allows for real-time pose estimation from images or video input. It is widely used for applications such as gesture recognition, body tracking, augmented reality, and interactive experiences. Developed by Google's Creative Lab, PoseNet is based on deep learning algorithms and utilizes a convolutional neural network (CNN) to detect and track human body poses.
+
+            ML5.js is a JavaScript library that provides easy-to-use, high-level interfaces for machine learning models and algorithms. ML5.js simplifies the integration of machine learning capabilities into web applications, making it accessible to developers with minimal knowledge of machine learning. ML5.js includes pre-trained models, such as PoseNet, that can be easily utilized to perform tasks like pose estimation, object recognition, and natural language processing.
+
+            p5.js is a creative coding library that simplifies the process of creating interactive graphics, animations, and visualizations in the browser. It provides a set of intuitive and powerful functions for drawing on the canvas, handling user interactions, and manipulating media elements. p5.js is built on top of HTML5 canvas and JavaScript, making it accessible to artists, designers, educators, and developers alike. It also has a vibrant community and extensive documentation, making it a popular choice for creative coding projects.
+
+            Computer vision is a field of artificial intelligence that focuses on enabling computers to understand and interpret visual information from images or video. It involves the development of algorithms and models that can extract meaningful insights, detect objects or patterns, and perform tasks such as image recognition, object tracking, and pose estimation. Computer vision has applications in various domains, including autonomous vehicles, surveillance systems, medical imaging, robotics, and augmented reality. It combines principles from computer science, mathematics, and machine learning to enable machines to perceive and understand the visual world.
+        </p>
+    </div>
+</div>
+</body>
+</html>
